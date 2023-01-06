@@ -6,10 +6,10 @@ import {
   viteConfig
 } from "./config/sidebar";
 import path from 'path'
-const outDir = path.resolve(__dirname, '../../', 'dist')
+const outDir = path.resolve(__dirname, '../', 'dist')
 console.log(outDir, 'outDir')
 export default {
-  base: '/dist',
+  base: '/rookie-hhm/dist',
   outDir,
   title: 'rookie blog',
   description: '持续学习源码',
