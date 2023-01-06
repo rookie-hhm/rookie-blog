@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as s,b as a}from"./app.38302f11.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"vue2/observe/dispatch.md"}'),o={name:"vue2/observe/dispatch.md"},r=a("p",null,"trigger",-1),c=[r];function n(d,i,p,_,l,h){return s(),t("div",null,c)}const f=e(o,[["render",n]]);export{u as __pageData,f as default};
