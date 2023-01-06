@@ -9,7 +9,7 @@ import path from 'path'
 const outDir = path.resolve(__dirname, '../', 'dist')
 console.log(outDir, 'outDir')
 export default {
-  base: '/rookie-hhm/dist',
+  base: '/rookie-blog/dist',
   outDir,
   title: 'rookie blog',
   description: '持续学习源码',

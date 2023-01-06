@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.38302f11.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"wepback/machine/plugin.md"}'),n={name:"wepback/machine/plugin.md"};function c(r,o,p,s,i,_){return a(),t("div")}const l=e(n,[["render",c]]);export{d as __pageData,l as default};

@@ -1,1 +1,0 @@
-import{_ as e,c as t,o}from"./app.38302f11.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"vue2/other/scopedSlot.md"}'),r={name:"vue2/other/scopedSlot.md"};function a(s,c,n,p,d,_){return o(),t("div")}const m=e(r,[["render",a]]);export{l as __pageData,m as default};
