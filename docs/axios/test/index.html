@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script src="https://cdn.bootcdn.net/ajax/libs/axios/1.2.2/axios.js"></script>
+  <script>
+    // const url = 'http://jsonplaceholder.typicode.com/posts'
+    const url = 'http://10.3.20.87:3000/api'
+    const CancelToken = axios.CancelToken;
+    const source = CancelToken.source();
+    axios.get(url, {
+      cancelToken: source.token,
+      // adapter: ['http'],
+      // signal: {
+      //   aborted: false
+      // }
+    }).then(value => {
+      console.log(value)
+    }).catch(err => {
+      console.log(err, 'err')
+    })
+    // const controller = new AbortController();
+    // controller.signal.addEventListener('abort', () => {
+    //   console.log('trigger abort')
+    // });
+    // setTimeout(() => {
+    //   controller.abort()
+    // }, 3000)
+    setTimeout(() => {
+      source.cancel('取消请求')
+    }, 2000);
+    // console.log(controller, 'controller', controller.signal)
+  </script>
+</body>
+</html>

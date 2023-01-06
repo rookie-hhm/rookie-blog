@@ -1,0 +1,17 @@
+{
+  "name": "rookie-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "koa": "^2.14.1",
+    "koa-cors": "^0.0.16",
+    "koa-router": "^12.0.0",
+    "vitepress": "^1.0.0-alpha.34"
+  }
+}
