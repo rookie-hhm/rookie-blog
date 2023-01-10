@@ -1,4 +1,4 @@
-import { 
+import {
   vue2Config,
   vue3Config,
   utilsConfig,
