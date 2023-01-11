@@ -3,11 +3,12 @@ import {
   vue3Config,
   utilsConfig,
   webpackConfig,
-  viteConfig
+  viteConfig,
+  nodeConfig
 } from "./config/sidebar";
 import path from 'path'
 const outDir = path.resolve(__dirname, '../', 'dist')
-console.log(outDir, 'outDir')
+
 export default {
   base: '/rookie-blog/dist',
   outDir,
@@ -30,7 +31,7 @@ export default {
         text: '其他',
         items: [
           { text: '前端工具库', link: 'front-end-utils/axios/start' },
-          { text: 'node相关', link: '/node/index' }
+          { text: 'node相关', link: '/node/detect-port' }
         ]
       }
     ],
@@ -40,6 +41,7 @@ export default {
       '/webpack/': webpackConfig,
       '/vite/': viteConfig,
       '/front-end-utils/': utilsConfig,
+      '/node/': nodeConfig
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }

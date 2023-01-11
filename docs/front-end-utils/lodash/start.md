@@ -10,7 +10,7 @@ npm i -g lodash-cli
 ```
 - 下载完之后，我们可以通过`npm config get prefix`命令获取全局npm目录，然后在该目录下的`lib/node_modules`里找到`lodash-cli`
 - 用代码编辑器打开该项目，默认情况在`package.json`中安装的`lodash`版本是`4.17.5`，如果需要生成对应的lodash包修改版本后,重新安装依赖包
-- `lodash modularize exports=es -o ./`执行该命令就可以在当前目录下生成`ESModule`模块的`lodash`，你也可以自行定义生成文件的目录，(参考链接)[]
+- `lodash modularize exports=es -o ./`执行该命令就可以在当前目录下生成`ESModule`模块的`lodash`，你也可以自行定义生成文件的目录，[参考链接](https://lodash.com/custom-builds)
 
 ::: tip
 代码打包生成的功能代码在`bin/lodash`文件中，其中打包的`lodash`就依赖于`package.json`中`lodash`的版本

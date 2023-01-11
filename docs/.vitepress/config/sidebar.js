@@ -72,25 +72,26 @@ export const utilsConfig = [
 
 export const nodeConfig = [
   {
-    text: '脚手架',
-    items: [
-      { text: '概念及实现原理', link: '/axios/introduction/index' },
-      { text: '脚手架常用库', link: '' },
-      { text: 'lerna解析', link: '' }
-    ]
-  },
-  {
     text: 'npm库',
     items: [
-      { text: 'dotenv', link: '' },
-      { text: 'ora', link: '' },
-      { text: 'ejs', link: '' }
+      { text: 'detectPort---如何监听端口号', link: '/node/detect-port' },
+      { text: 'dotenv---添加环境变量', link: '/node/dotenv' },
+      { text: 'ora---炫酷的loading', link: '/node/ora' },
+      { text: 'ejs---模版引擎', link: '/node/ejs' }
     ]
   },
-  {
-    text: 'koa源码解析',
-    collapsible: true,
-    items: [
-    ]
-  }
+  // {
+  //   text: '脚手架',
+  //   items: [
+  //     { text: '概念及实现原理', link: '/axios/introduction/index' },
+  //     { text: '脚手架常用库', link: '' },
+  //     { text: 'lerna解析', link: '' }
+  //   ]
+  // },
+  // {
+  //   text: 'koa源码解析',
+  //   collapsible: true,
+  //   items: [
+  //   ]
+  // }
 ]
