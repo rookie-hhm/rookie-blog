@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,a as l}from"./app.7746af4f.js";const C=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"front-end-utils/axios/what.md"}'),p={name:"front-end-utils/axios/what.md"},o=l("",9),e=[o];function t(c,r,y,F,D,i){return a(),n("div",null,e)}const b=s(p,[["render",t]]);export{C as __pageData,b as default};

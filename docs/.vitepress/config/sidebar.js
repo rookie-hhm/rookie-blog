@@ -80,6 +80,13 @@ export const nodeConfig = [
       { text: 'ejs---模版引擎', link: '/node/ejs' }
     ]
   },
+  {
+    text: 'require--npm模块加载原理',
+    items: [
+      { text: '前置知识', link: '/node/module/start' },
+      { text: '主流程', link: '/node/module/core' }
+    ]
+  }
   // {
   //   text: '脚手架',
   //   items: [
