@@ -1,4 +1,4 @@
-[`detect-port`](https://www.npmjs.com/package/detect-port)是用来检查端口占用的工具库，如果端口被占用了，会智能地提示下一个没被占用的端口号。这个库在很多脚手架中都应用了
+[`detect-port`](https://www.npmjs.com/package/detect-port)是用来检查端口占用的工具库，如果端口被占用了，会智能地提示下一个没被占用的端口号。这个库在很多脚手架中也得到了广泛应用，我们一起看看它是如何实现的
 
 ## 基本用法
 ```js

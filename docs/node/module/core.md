@@ -238,7 +238,6 @@ console.log(JSON.parse(content)) // { a: "1" }
 :::
 对于`.js`文件而言会执行`Module.prototype._compile`方法
 #### 解析js文件
-##### Module.prototype._compile
 ```js
 Module.prototype._compile = function(content, filename) {
   let redirects;
@@ -260,10 +259,18 @@ Module.prototype._compile = function(content, filename) {
   return result;
 };
 ```
+`makeRequireFunction`会把`Module`上的一些对象挂到`require`函数上：
+![makeRequireFunction](./../images/makeRequireFunction.png)
 其中`compiledWrapper`函数展示如下:
 
-```text
-ƒ (exports, require, module, __filename, __dirname) {console.log('a.js')let a = 1exports.plus = function () {  a++}exports.get = function () {  return a}exports.a = a }
+```js
+ƒ (exports, require, module, __filename, __dirname) {
+  console.log('a.js')
+  let a = 1
+  exports.plus = function () {  a++}
+  exports.get = function () {  return a}
+  exports.a = a
+}
 ```
 其中`exports, require, module, __filename, __dirname`参数对应了，执行时传入的变量
 

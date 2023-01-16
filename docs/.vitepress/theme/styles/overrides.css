@@ -114,3 +114,7 @@
 .dark .vp-doc .custom-block a {
   transition: color 0.25s;
 }
+
+.highlight {
+  color: var(--vp-c-brand-lighter);
+}

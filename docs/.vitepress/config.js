@@ -31,7 +31,7 @@ export default {
         text: '其他',
         items: [
           { text: '前端工具库', link: 'front-end-utils/axios/start' },
-          { text: 'node相关', link: '/node/detect-port' }
+          { text: 'Node', link: '/node/detect-port' }
         ]
       }
     ],
