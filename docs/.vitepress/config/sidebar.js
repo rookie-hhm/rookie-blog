@@ -77,6 +77,7 @@ export const nodeConfig = [
       { text: 'detectPort---如何监听端口号', link: '/node/detect-port' },
       { text: 'dotenv---添加环境变量', link: '/node/dotenv' },
       { text: 'ora---炫酷的loading', link: '/node/ora' },
+      { text: 'chalk---增强命令行提示', link: '/node/chalk' },
       { text: 'ejs---模版引擎', link: '/node/ejs' }
     ]
   },

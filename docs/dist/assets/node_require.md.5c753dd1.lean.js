@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as t}from"./app.e634c48a.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"node/require.md"}'),a={name:"node/require.md"};function o(n,s,c,i,d,p){return t(),r("div")}const f=e(a,[["render",o]]);export{m as __pageData,f as default};

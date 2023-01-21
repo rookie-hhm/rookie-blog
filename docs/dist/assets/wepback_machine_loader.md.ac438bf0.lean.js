@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as t}from"./app.9d977b71.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"wepback/machine/loader.md"}'),r={name:"wepback/machine/loader.md"};function o(c,n,s,p,d,i){return t(),a("div")}const l=e(r,[["render",o]]);export{m as __pageData,l as default};
