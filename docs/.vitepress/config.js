@@ -15,25 +15,24 @@ export default {
   title: 'rookie blog',
   description: '持续学习源码',
   siteTitle: 'source-code study',
+  head: [['meta', { name: 'theme-color', content: '#3c8772' }]],
   markdown: {
-    theme: 'material-palenight',
     lineNumbers: true
   },
   themeConfig: {
     logo: '/images/logo.svg',
     outline: 'deep',
     nav: [
-      { text: 'vue2源码', link: '/vue2/introduction/index' },
-      { text: 'vue3源码', link: '/vue3/a' },
-      { text: 'webpack源码', link: '/webpack/introduction/index' },
-      { text: 'vite源码', link: '/vite/introduction/index' },
-      {
-        text: '其他',
-        items: [
-          { text: '前端工具库', link: 'front-end-utils/axios/start' },
-          { text: 'Node', link: '/node/detect-port' }
-        ]
-      }
+      { text: 'vue3源码', link: '/vue3/introduction/start' },
+      { text: '前端工具库', link: 'front-end-utils/axios/start' },
+      { text: 'Node', link: '/node/detect-port' }
+      // { text: 'webpack源码', link: '/webpack/introduction/index' },
+      // { text: 'vite源码', link: '/vite/introduction/index' },
+      // {
+      //   text: '其他',
+      //   items: [
+      //   ]
+      // }
     ],
     sidebar: {
       '/vue2/': vue2Config,

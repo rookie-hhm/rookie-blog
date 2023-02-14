@@ -36,10 +36,31 @@ export const vue2Config = [
 
 export const vue3Config = [
   {
-    text: '前言',
+    text: '准备工作',
     items: [
-      { text: '介绍', link: '/vue3/a' },
-      { text: 'bb', link: '/vue3/b' }
+      { text: '前言', link: '/vue3/introduction/start' },
+      { text: '源码目录', link: '/vue3/introduction/structure' },
+      { text: '基本概念', link: '/vue3/introduction/base' },
+      { text: '如何调试源码', link: '/vue3/introduction/debugger' }
+    ]
+  },
+  {
+    text: '响应式系统',
+    items: [
+      { text: '介绍', link: '/vue3/reactivity/start' },
+      { text: 'reactivity', link: '/vue3/reactivity/reactive' }
+    ]
+  },
+  {
+    text: '运行时',
+    items: [
+      { text: '介绍', link: '/vue3/runtime/start' },
+    ]
+  },
+  {
+    text: '编译器',
+    items: [
+      { text: '介绍', link: '/vue3/compiler/start' }
     ]
   }
 ]
@@ -47,7 +68,6 @@ export const vue3Config = [
 export const webpackConfig = []
 
 export const viteConfig = []
-
 
 export const utilsConfig = [
   {
@@ -74,11 +94,12 @@ export const nodeConfig = [
   {
     text: 'npm库',
     items: [
-      { text: 'detectPort---如何监听端口号', link: '/node/detect-port' },
-      { text: 'dotenv---添加环境变量', link: '/node/dotenv' },
-      { text: 'ora---炫酷的loading', link: '/node/ora' },
-      { text: 'chalk---增强命令行提示', link: '/node/chalk' },
-      { text: 'ejs---模版引擎', link: '/node/ejs' }
+      { text: 'detectPort--如何监听端口号', link: '/node/detect-port' },
+      { text: 'dotenv--添加环境变量', link: '/node/dotenv' },
+      { text: 'ora--炫酷的loading', link: '/node/ora' },
+      { text: 'chalk--增强命令行提示', link: '/node/chalk' },
+      { text: 'inquirer--命令行交互神器', link: '/node/inquirer' },
+      { text: 'ejs--模版引擎', link: '/node/ejs' }
     ]
   },
   {

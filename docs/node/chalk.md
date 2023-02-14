@@ -1,4 +1,3 @@
-## 前言
 在开发前端脚手架的时候，在终端中，对于不同的提示文本会展示不同的样式来增强提示及用户体验。其中[`chalk`](https://www.npmjs.com/package/chalk)，释义为“粉笔”，它的功能就是给输出提示提供各种样式，包括文本颜色、背景色、字重等样式，并且广泛应用在许多项目中。
 
 对这方面的实现比较好奇，本篇文章就一起来看看源码，掌握其实现原理。
@@ -290,7 +289,7 @@ builder1[IS_EMPTY] = undefined
 ```
 接着执行`builder1.red`，此时`this`指向`builder1`，先执行`createStyler`将父子渲染标签拼接起来，生成一个`builder2`
 ```js
-builder2[GENERATOR] = builder1 // buidler1函数调用的bold方法
+builder2[GENERATOR] = builder1 // builder1函数调用的red方法生成
 builder2[STYLER] = {
   open: '\u001B[1m',
   close: '\u001B[22m',
@@ -410,6 +409,11 @@ chalk.red('rookie\nrookie')
 // 伪代码表示
 // <open-tag>rookie</close-tag>\n<open-tag>rookie</close-tag>
 ```
+
+::: tip 替代方案
+可以使用[`picocolors
+`](https://www.npmjs.com/package/picocolors)替代`chalk`来满足基本功能
+:::
 
 ## 总结
 至此，`chalk`的总体流程就已经分析完了，其他的功能基本都是上面看到的几种函数的结合。其中链式调用实现方式很巧妙:

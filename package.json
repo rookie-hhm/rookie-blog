@@ -18,6 +18,6 @@
     "koa-cors": "^0.0.16",
     "koa-router": "^12.0.0",
     "ora": "^6.1.2",
-    "vitepress": "^1.0.0-alpha.36"
+    "vitepress": "^1.0.0-alpha.46"
   }
 }
