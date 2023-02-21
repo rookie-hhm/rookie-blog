@@ -7,7 +7,7 @@ import {
   nodeConfig
 } from "./config/sidebar";
 import path from 'path'
-const outDir = path.resolve(__dirname, '../', 'dist')
+const outDir = path.resolve(__dirname, 'dist')
 
 export default {
   base: '/rookie-blog',
