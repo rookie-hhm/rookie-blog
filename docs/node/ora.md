@@ -16,7 +16,7 @@ setTimeout(() => {
 显示结果如下:
 
 <video controls autoplay="autoplay">
-<source src="./images/ora.mov">
+<source src="/images/ora.mp4">
 </video>
 
 特点:

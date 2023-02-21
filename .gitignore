@@ -4,3 +4,4 @@ cache
 .vscode
 *.env
 test*
+**/dist/**

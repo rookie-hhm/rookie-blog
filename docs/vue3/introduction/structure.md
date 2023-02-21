@@ -30,7 +30,7 @@ Monorepo特点:
 
 ### 打包构建
 从`package.json`文件中可以看到，打包构建的代码在`scripts/build.js`下
-```json[1]
+```json
 "scripts": {
   "build": "node scripts/build.js"
 }
