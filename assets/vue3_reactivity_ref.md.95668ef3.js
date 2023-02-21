@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./app.9d007d2b.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"vue3/reactivity/ref.md"}'),a={name:"vue3/reactivity/ref.md"};function c(o,s,n,i,p,_){return r(),t("div")}const m=e(a,[["render",c]]);export{d as __pageData,m as default};

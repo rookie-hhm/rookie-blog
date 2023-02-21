@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r,b as n}from"./app.9d007d2b.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"node/inquirer.md"}'),o={name:"node/inquirer.md"},a=n("p",null,"待创作...",-1),s=[a];function c(i,_,d,p,l,u){return r(),t("div",null,s)}const h=e(o,[["render",c]]);export{f as __pageData,h as default};

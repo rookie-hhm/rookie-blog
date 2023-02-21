@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a,b as s}from"./app.9d007d2b.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"vue3/runtime/start.md"}'),r={name:"vue3/runtime/start.md"},o=s("p",null,"待创作..",-1),n=[o];function c(_,i,d,p,l,m){return a(),e("div",null,n)}const h=t(r,[["render",c]]);export{f as __pageData,h as default};

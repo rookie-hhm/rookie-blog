@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.9d007d2b.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"vue3/reactivity/optimize.md"}'),o={name:"vue3/reactivity/optimize.md"};function r(i,c,s,n,p,m){return a(),t("div")}const f=e(o,[["render",r]]);export{d as __pageData,f as default};
